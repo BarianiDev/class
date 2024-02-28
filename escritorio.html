@@ -1,0 +1,200 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Santa Fe</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <link rel="stylesheet" href="escritorio.css">
+</head>
+
+<body>
+    <header>
+        <nav class="navbar navbar-expand-lg bg-danger-subtle">
+            <div class="container-fluid">
+                <a class="navbar-brand" href="#">Home</a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                    aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
+                    <ul class="navbar-nav">
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="#">bla</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Servicos</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Pricing</a>
+                        </li>
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+                                aria-expanded="false">
+                                Contato
+                            </a>
+                            <ul class="dropdown-menu">
+                                <li><a class="dropdown-item" href="#">Email</a></li>
+                                <li><a class="dropdown-item" href="#">Telefone</a></li>
+                                <li>
+                                    <hr class="dropdown-divider">
+                                </li>
+                                <li><a class="dropdown-item" href="#">Fax</a></li>
+                            </ul>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+        <h1>Santa fe</h1>
+    </header>
+    <section id="servicos">
+        <h2>Servicos prestados com auxilio juridico</h2>
+        <p>colocar texto sobre o escritorio, ou coisa do tipo.</p>
+        <div class="row">
+            <figure class="col text-center">
+                <img src="pasta_site\criminal.jpg" alt="criminal" style="width: 500px;">
+                <figcaption>Criminal</figcaption>
+            </figure>
+            <figure class="col text-center">
+                <img src="pasta_site\empresarial.jpg" alt="empresarial" style="width: 500px;">
+                <figcaption>Empresarial</figcaption>
+            </figure>
+            <figure class="col text-center">
+                <img src="pasta_site\contabilidade.jpg" alt="servicos contabeis" style="width: 500px;">
+                <figcaption>Servicos contabeis</figcaption>
+            </figure>
+        </div>
+        <hr>
+    </section>
+    <br><br>
+    <section>
+        <h2>Contate-nos e escreva um breve resumo do caso.</h2>
+        <form method="get" action="">
+
+            <fieldset>
+                <legend>Dados do solicitante</legend>
+                <label>Nome</label><br>
+                <input type="text" name="nome"><br><br>
+
+                <label>Email</label><br>
+                <input type="email" name="email"><br><br>
+            </fieldset>
+
+            <fieldset>
+                <legend>Quais servicos gostaria de contratar?</legend>
+                <label>
+                    <br><input type="checkbox" name="crimianl" value="crimianl">Advocacia Criminal
+                </label>
+                <label>
+                    <br><input type="checkbox" name="empresarial" value="empresarial">Advocacia Empresarial
+                </label>
+                <label>
+                    <br><input type="checkbox" name="contabilida" value="contabilidade">Servico contabeis
+                </label>
+            </fieldset>
+
+            <h2>Resumo do seu caso.</h2>
+            <textarea name="resumo" cols="90" rows="20"></textarea>
+
+            <br>
+
+            <button class= "botaoEnviar">Enviar</button>
+        </form>
+    </section>
+
+    <br><br>
+    <section id="honorarios">
+        <h2>Taxa de honorarios OAB e CRC.</h2>
+        <p>A seguir os honorarios dos servicos de acordo com a OAB e CRC.</p>
+        <table border>
+            <caption>Descricao dos servicos Contabeis.</caption>
+            <thead>
+                <tr>
+                    <th>
+                        Servico
+                    </th>
+                    <th>
+                        Valor
+                    </th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>
+                        Imposto de Renda
+                    </td>
+                    <td>
+                        R$ 300,00
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        IRPJ
+                    </td>
+                    <td>
+                        R$ 600,00
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        ITR
+                    </td>
+                    <td>
+                        R$ 50,00
+                    </td>
+                </tr>
+            </tbody>
+        </table>
+        <br><br>
+        <table border>
+            <caption>Descricao de Servicos advocaticios.</caption>
+            <thead>
+                <tr>
+                    <th>
+                        Servico
+                    </th>
+                    <th>
+                        Valor
+                    </th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>
+                        Inventario de Bens
+                    </td>
+                    <td>
+                        R$ 1000,00
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        Divorcio
+                    </td>
+                    <td>
+                        R$ 1000,00
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        Contratos
+                    </td>
+                    <td>
+                        Variavel
+                    </td>
+                </tr>
+            </tbody>
+
+
+        </table>
+    </section>
+    <footer class="container-fluid bg-danger text-center">Desenvolvido por Pedro 2024</footer>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>
